@@ -1,0 +1,14 @@
+{
+    "env": "production",
+    "dbConfig": {
+        "host": "postgres",
+        "user": "postgres",
+        "password": "postgres",
+        "database": "sequelize",
+        "pool": {
+            "min": 0,
+            "max": 5
+        }
+    },
+    "secretKey": "secretKey"
+}
